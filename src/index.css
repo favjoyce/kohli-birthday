@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --pink: #ff6eb4;
+  --purple: #a855f7;
+  --lavender: #c084fc;
+  --deep: #2d0a5e;
+  --blue: #60a5fa;
+  --gold: #fbbf24;
+  --mint: #34d399;
+  --coral: #fb7185;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #1a0533;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+.app-root {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1a0533; }
+::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 3px; }
